@@ -1,0 +1,36 @@
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    list-style: none;
+    margin-top: 16px;
+}
+
+.item {
+    width: 100px;
+    height: 160px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    width: 75px;
+    margin-bottom: 4px;
+}
+
+.text {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.online {
+    color: rgb(20, 189, 20);
+}
+
+.offline {
+    color: red;
+}
